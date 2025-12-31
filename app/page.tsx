@@ -1,6 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
-import { Users, ArrowRight, Check, BarChart3, Users, Zap, Shield, Clock, Globe } from 'lucide-react';
+import { Users, ArrowRight, Check, BarChart3, Zap, Shield, Clock, Globe } from 'lucide-react';
 
 const features = [
   { icon: BarChart3, title: 'Smart Analytics', desc: 'AI-powered insights and reporting' },
