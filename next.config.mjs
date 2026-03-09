@@ -4,6 +4,7 @@ const nextConfig={reactStrictMode:true};export default nextConfig;
 const _nextConfigFinal = {
   ...nextConfig,
   typescript: { ignoreBuildErrors: true },
+  output: 'standalone',
   eslint: { ignoreDuringBuilds: true },
 };
 
