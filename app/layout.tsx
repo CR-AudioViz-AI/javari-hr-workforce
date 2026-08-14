@@ -1,7 +1,7 @@
 // app/layout.tsx — CR AudioViz AI · EIN: 39-3646201 · May 2026
 import type { Metadata } from 'next'
 export const dynamic = 'force-dynamic'
-export const metadata: Metadata = { title: 'Javari HR Workforce', description: 'AI HR and workforce management tools.'
+export const metadata: Metadata = { title: 'Javari HR Workforce', description: 'AI HR and workforce management tools.',
   openGraph: { title: 'Javari HR Workforce', description: 'AI HR and workforce management tools.', type: 'website' }, }
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
