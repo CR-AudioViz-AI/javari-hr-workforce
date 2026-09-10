@@ -14,7 +14,7 @@ const features = [
 export default function Page() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-      <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b">
+      <nav data-app-chrome className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b">
         <div className="max-w-7xl mx-auto px-4 h-16 flex justify-between items-center">
           <div className="flex items-center gap-2">
             <Users className="w-8 h-8 text-blue-600" />
@@ -62,7 +62,7 @@ export default function Page() {
         </div>
       </section>
       
-      <footer className="py-12 px-4 bg-slate-900 text-center">
+      <footer data-app-chrome className="py-12 px-4 bg-slate-900 text-center">
         <p className="text-slate-500">© 2025 CR AudioViz AI, LLC. All rights reserved.</p>
       </footer>
     </div>
